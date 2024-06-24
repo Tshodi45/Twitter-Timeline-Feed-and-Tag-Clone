@@ -1,0 +1,57 @@
+
+    {
+        "info": {
+          "name": "Twitter-timeline-feed-and-tag-clone",
+          "description": "API collection for Twitter Clone",
+          "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+        },
+        "item": [
+          {
+            "name": "Timeline",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "http://localhost:3000/api/timeline?userId=1",
+                "protocol": "http",
+                "host": [
+                  "localhost"
+                ],
+                "port": "3000",
+                "path": [
+                  "api",
+                  "timeline"
+                ],
+                "query": [
+                  {
+                    "key": "userId",
+                    "value": "1"
+                  }
+                ]
+              }
+            },
+            "response": []
+          },
+          {
+            "name": "Feed",
+            "request": {
+              "method": "GET",
+              "header": [],
+              "url": {
+                "raw": "http://localhost:3000/api/feed",
+                "protocol": "http",
+                "host": [
+                  "localhost"
+                ],
+                "port": "3000",
+                "path": [
+                  "api",
+                  "feed"
+                ]
+              }
+            },
+            "response": []
+          }
+        ]
+      }
+      
